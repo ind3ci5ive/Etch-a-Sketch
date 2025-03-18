@@ -3,10 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     margin: 2em;
-    max-width: 256px;
+    width: 335px;
+    max-height: 320px;
 
-    border: solid;
-    border-color: black;
+    /* border: solid;
+    border-color: black; */
 }
 
 body {
@@ -14,7 +15,9 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
+    /* place-items: center; */
 }
 
 div {
